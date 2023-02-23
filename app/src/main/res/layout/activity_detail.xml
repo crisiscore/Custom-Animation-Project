@@ -21,13 +21,16 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_detail" />
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/detail_button_label"
+        android:textColor="@color/white"
+        android:textSize="@dimen/default_text_size"
+        android:layout_margin="@dimen/default_margin"
+        app:backgroundTint="@color/colorAccent"
+        android:layout_gravity="bottom"
+        />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
